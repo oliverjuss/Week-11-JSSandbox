@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    height: 100vh;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-imges img
+{
+    object-fit: cover;
+    margin: 2rem;
+    height: 85vh;
+}

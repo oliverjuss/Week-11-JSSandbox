@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallary
+{
+    display: grid;
+    height: 99vh;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 50%;
+}
+
+.gallary-image img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallary-image4
+{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
